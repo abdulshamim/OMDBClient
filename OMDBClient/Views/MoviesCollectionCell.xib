@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MoviesCollectionCell" customModule="OMDBClient" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="251" height="339"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="251" height="339"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="eOj-Zq-ksy">
+                        <rect key="frame" x="5" y="5" width="241" height="329"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" translatesAutoresizingMaskIntoConstraints="NO" id="UzI-ur-9hS">
+                                <rect key="frame" x="0.0" y="0.0" width="241" height="260"/>
+                                <color key="backgroundColor" red="0.65656775239999998" green="0.77949982880000002" blue="0.88517826799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Type" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgt-Ky-GdC">
+                                <rect key="frame" x="8" y="308.5" width="225" height="16.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Movie title" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTO-hU-Eb2">
+                                <rect key="frame" x="8" y="270" width="225" height="18"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="13"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Release Year" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7P4-7R-S5j">
+                                <rect key="frame" x="8" y="290" width="225" height="16.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98698617685156698" green="0.93116375284956054" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vTO-hU-Eb2" firstAttribute="leading" secondItem="eOj-Zq-ksy" secondAttribute="leading" constant="8" id="3KM-r0-WrC"/>
+                            <constraint firstAttribute="trailing" secondItem="Wgt-Ky-GdC" secondAttribute="trailing" constant="8" id="7MT-PW-nzB"/>
+                            <constraint firstItem="vTO-hU-Eb2" firstAttribute="top" secondItem="UzI-ur-9hS" secondAttribute="bottom" constant="10" id="BZ2-vf-E5X"/>
+                            <constraint firstAttribute="bottom" secondItem="Wgt-Ky-GdC" secondAttribute="bottom" constant="4" id="JLX-Lg-2Vf"/>
+                            <constraint firstItem="7P4-7R-S5j" firstAttribute="top" secondItem="vTO-hU-Eb2" secondAttribute="bottom" constant="2" id="WDg-nX-2aC"/>
+                            <constraint firstAttribute="trailing" secondItem="UzI-ur-9hS" secondAttribute="trailing" id="WPt-ON-2LC"/>
+                            <constraint firstItem="UzI-ur-9hS" firstAttribute="top" secondItem="eOj-Zq-ksy" secondAttribute="top" id="bHk-Bj-Fny"/>
+                            <constraint firstItem="UzI-ur-9hS" firstAttribute="leading" secondItem="eOj-Zq-ksy" secondAttribute="leading" id="djO-0W-hli"/>
+                            <constraint firstAttribute="trailing" secondItem="vTO-hU-Eb2" secondAttribute="trailing" constant="8" id="eYd-6t-eAY"/>
+                            <constraint firstItem="Wgt-Ky-GdC" firstAttribute="top" secondItem="7P4-7R-S5j" secondAttribute="bottom" constant="2" id="eze-Tk-P72"/>
+                            <constraint firstItem="7P4-7R-S5j" firstAttribute="leading" secondItem="eOj-Zq-ksy" secondAttribute="leading" constant="8" id="jE1-dk-21n"/>
+                            <constraint firstAttribute="trailing" secondItem="7P4-7R-S5j" secondAttribute="trailing" constant="8" id="mCC-Sy-F24"/>
+                            <constraint firstItem="Wgt-Ky-GdC" firstAttribute="leading" secondItem="eOj-Zq-ksy" secondAttribute="leading" constant="8" id="ofe-G3-1Bi"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="eOj-Zq-ksy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="1JB-fO-6li"/>
+                <constraint firstAttribute="bottom" secondItem="eOj-Zq-ksy" secondAttribute="bottom" constant="5" id="ayB-B6-ppN"/>
+                <constraint firstAttribute="trailing" secondItem="eOj-Zq-ksy" secondAttribute="trailing" constant="5" id="k0v-DN-3WX"/>
+                <constraint firstItem="eOj-Zq-ksy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="qnd-t2-u5X"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="251" height="339"/>
+            <connections>
+                <outlet property="posterImage" destination="UzI-ur-9hS" id="uRb-Lm-nxm"/>
+                <outlet property="relasingDateLabel" destination="7P4-7R-S5j" id="AiR-zV-ZOH"/>
+                <outlet property="roundCornerView" destination="eOj-Zq-ksy" id="Cgu-O9-4vj"/>
+                <outlet property="titleLabel" destination="vTO-hU-Eb2" id="Vgz-UN-yZY"/>
+                <outlet property="typeLabel" destination="Wgt-Ky-GdC" id="CIf-gw-fGy"/>
+            </connections>
+            <point key="canvasLocation" x="298.39999999999998" y="283.80809595202402"/>
+        </collectionViewCell>
+    </objects>
+</document>

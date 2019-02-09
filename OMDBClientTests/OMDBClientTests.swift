@@ -11,6 +11,7 @@ import XCTest
 
 class OMDBClientTests: XCTestCase {
 
+    let moviesCollectionController = MoviesCollectionController()
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -22,6 +23,18 @@ class OMDBClientTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testPresenter() {
+        let presenter = moviesCollectionController.presenter
+        XCTAssert(presenter == nil, "Presenter should not be nil.")
+    }
+    
+    func testMoviesGettingFromServer() {
+        let presenter = moviesCollectionController.presenter
+        presenter?.getMovies(pageCount: 1) {(isSuccess: Bool) in
+            XCTAssertTrue(isSuccess, "No movies found")
+        }
     }
 
     func testPerformanceExample() {

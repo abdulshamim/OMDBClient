@@ -14,6 +14,18 @@
 		4EEF0F45220C8D2500942C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF0F43220C8D2500942C03 /* LaunchScreen.storyboard */; };
 		4EEF0F50220C8D2500942C03 /* OMDBClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F4F220C8D2500942C03 /* OMDBClientTests.swift */; };
 		4EEF0F5B220C8D2500942C03 /* OMDBClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F5A220C8D2500942C03 /* OMDBClientUITests.swift */; };
+		4EEF0F6A220C93FF00942C03 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F69220C93FF00942C03 /* Constant.swift */; };
+		4EEF0F6D220CA04D00942C03 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F6C220CA04D00942C03 /* URLSession.swift */; };
+		4EEF0F70220CA15900942C03 /* MoviesCollectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F6F220CA15900942C03 /* MoviesCollectionPresenter.swift */; };
+		4EEF0F73220CA1EE00942C03 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F72220CA1EE00942C03 /* Movies.swift */; };
+		4EEF0F75220CA35700942C03 /* MoviesCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F74220CA35700942C03 /* MoviesCollectionController.swift */; };
+		4EEF0F77220D546B00942C03 /* MovieDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F76220D546B00942C03 /* MovieDetailsController.swift */; };
+		4EEF0F7F220D553F00942C03 /* MoviesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F7D220D553F00942C03 /* MoviesCollectionCell.swift */; };
+		4EEF0F80220D553F00942C03 /* MoviesCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF0F7E220D553F00942C03 /* MoviesCollectionCell.xib */; };
+		4EEF0F82220D55C900942C03 /* MovieDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F81220D55C900942C03 /* MovieDetailsPresenter.swift */; };
+		4EEF0F84220D565600942C03 /* MovieDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F83220D565600942C03 /* MovieDetailCell.swift */; };
+		4EEF0F86220E2A4400942C03 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F85220E2A4400942C03 /* Extensions.swift */; };
+		5095FE811FEFCF0993BDEAB4 /* Pods_OMDBClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A79B0FA41B666517DF3301F /* Pods_OMDBClient.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6BBA72FC0B7B100B9E14BF /* Pods-OMDBClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDBClient.release.xcconfig"; path = "Target Support Files/Pods-OMDBClient/Pods-OMDBClient.release.xcconfig"; sourceTree = "<group>"; };
+		2A79B0FA41B666517DF3301F /* Pods_OMDBClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDBClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEF0F37220C8D2100942C03 /* OMDBClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMDBClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEF0F3A220C8D2100942C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EEF0F3C220C8D2100942C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,18 @@
 		4EEF0F56220C8D2500942C03 /* OMDBClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMDBClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEF0F5A220C8D2500942C03 /* OMDBClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBClientUITests.swift; sourceTree = "<group>"; };
 		4EEF0F5C220C8D2500942C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEF0F69220C93FF00942C03 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4EEF0F6C220CA04D00942C03 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		4EEF0F6F220CA15900942C03 /* MoviesCollectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionPresenter.swift; sourceTree = "<group>"; };
+		4EEF0F72220CA1EE00942C03 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		4EEF0F74220CA35700942C03 /* MoviesCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionController.swift; sourceTree = "<group>"; };
+		4EEF0F76220D546B00942C03 /* MovieDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsController.swift; sourceTree = "<group>"; };
+		4EEF0F7D220D553F00942C03 /* MoviesCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionCell.swift; sourceTree = "<group>"; };
+		4EEF0F7E220D553F00942C03 /* MoviesCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesCollectionCell.xib; sourceTree = "<group>"; };
+		4EEF0F81220D55C900942C03 /* MovieDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsPresenter.swift; sourceTree = "<group>"; };
+		4EEF0F83220D565600942C03 /* MovieDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailCell.swift; sourceTree = "<group>"; };
+		4EEF0F85220E2A4400942C03 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		81C890FEDFC557656466513F /* Pods-OMDBClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDBClient.debug.xcconfig"; path = "Target Support Files/Pods-OMDBClient/Pods-OMDBClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5095FE811FEFCF0993BDEAB4 /* Pods_OMDBClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				4EEF0F4E220C8D2500942C03 /* OMDBClientTests */,
 				4EEF0F59220C8D2500942C03 /* OMDBClientUITests */,
 				4EEF0F38220C8D2100942C03 /* Products */,
+				623C94FA83ED6CA2DF58669C /* Pods */,
+				5EBB7C7EF1F928234C0AB827 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +126,11 @@
 		4EEF0F39220C8D2100942C03 /* OMDBClient */ = {
 			isa = PBXGroup;
 			children = (
+				4EEF0F78220D54A900942C03 /* Views */,
+				4EEF0F71220CA1D400942C03 /* Model */,
+				4EEF0F6E220CA12800942C03 /* ViewContrellers */,
+				4EEF0F6B220CA02D00942C03 /* Networking */,
+				4EEF0F68220C8D4000942C03 /* Constant */,
 				4EEF0F3A220C8D2100942C03 /* AppDelegate.swift */,
 				4EEF0F3C220C8D2100942C03 /* ViewController.swift */,
 				4EEF0F3E220C8D2100942C03 /* Main.storyboard */,
@@ -125,6 +159,69 @@
 			path = OMDBClientUITests;
 			sourceTree = "<group>";
 		};
+		4EEF0F68220C8D4000942C03 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF0F69220C93FF00942C03 /* Constant.swift */,
+				4EEF0F85220E2A4400942C03 /* Extensions.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		4EEF0F6B220CA02D00942C03 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF0F6C220CA04D00942C03 /* URLSession.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4EEF0F6E220CA12800942C03 /* ViewContrellers */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF0F6F220CA15900942C03 /* MoviesCollectionPresenter.swift */,
+				4EEF0F74220CA35700942C03 /* MoviesCollectionController.swift */,
+				4EEF0F76220D546B00942C03 /* MovieDetailsController.swift */,
+				4EEF0F81220D55C900942C03 /* MovieDetailsPresenter.swift */,
+			);
+			path = ViewContrellers;
+			sourceTree = "<group>";
+		};
+		4EEF0F71220CA1D400942C03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF0F72220CA1EE00942C03 /* Movies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EEF0F78220D54A900942C03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF0F7D220D553F00942C03 /* MoviesCollectionCell.swift */,
+				4EEF0F7E220D553F00942C03 /* MoviesCollectionCell.xib */,
+				4EEF0F83220D565600942C03 /* MovieDetailCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EBB7C7EF1F928234C0AB827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A79B0FA41B666517DF3301F /* Pods_OMDBClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		623C94FA83ED6CA2DF58669C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81C890FEDFC557656466513F /* Pods-OMDBClient.debug.xcconfig */,
+				1B6BBA72FC0B7B100B9E14BF /* Pods-OMDBClient.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EEF0F5F220C8D2500942C03 /* Build configuration list for PBXNativeTarget "OMDBClient" */;
 			buildPhases = (
+				9CD0B685E8E465C4781D0F51 /* [CP] Check Pods Manifest.lock */,
 				4EEF0F33220C8D2100942C03 /* Sources */,
 				4EEF0F34220C8D2100942C03 /* Frameworks */,
 				4EEF0F35220C8D2100942C03 /* Resources */,
+				17F20DAA26FB9F7FFBC2E202 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEF0F80220D553F00942C03 /* MoviesCollectionCell.xib in Resources */,
 				4EEF0F45220C8D2500942C03 /* LaunchScreen.storyboard in Resources */,
 				4EEF0F42220C8D2500942C03 /* Assets.xcassets in Resources */,
 				4EEF0F40220C8D2100942C03 /* Main.storyboard in Resources */,
@@ -251,13 +351,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17F20DAA26FB9F7FFBC2E202 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OMDBClient/Pods-OMDBClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OMDBClient/Pods-OMDBClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD0B685E8E465C4781D0F51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OMDBClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EEF0F33220C8D2100942C03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEF0F7F220D553F00942C03 /* MoviesCollectionCell.swift in Sources */,
+				4EEF0F84220D565600942C03 /* MovieDetailCell.swift in Sources */,
 				4EEF0F3D220C8D2100942C03 /* ViewController.swift in Sources */,
+				4EEF0F77220D546B00942C03 /* MovieDetailsController.swift in Sources */,
+				4EEF0F70220CA15900942C03 /* MoviesCollectionPresenter.swift in Sources */,
+				4EEF0F73220CA1EE00942C03 /* Movies.swift in Sources */,
+				4EEF0F75220CA35700942C03 /* MoviesCollectionController.swift in Sources */,
+				4EEF0F86220E2A4400942C03 /* Extensions.swift in Sources */,
+				4EEF0F82220D55C900942C03 /* MovieDetailsPresenter.swift in Sources */,
 				4EEF0F3B220C8D2100942C03 /* AppDelegate.swift in Sources */,
+				4EEF0F6D220CA04D00942C03 /* URLSession.swift in Sources */,
+				4EEF0F6A220C93FF00942C03 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +587,7 @@
 		};
 		4EEF0F60220C8D2500942C03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C890FEDFC557656466513F /* Pods-OMDBClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +606,7 @@
 		};
 		4EEF0F61220C8D2500942C03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6BBA72FC0B7B100B9E14BF /* Pods-OMDBClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
