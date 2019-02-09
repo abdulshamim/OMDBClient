@@ -9,4 +9,4 @@ Swift 4.2 is used.
  
 Tested on simulators, not on iPhone.
 
-
+Kingfisher framework is used for downloading and caching image.
