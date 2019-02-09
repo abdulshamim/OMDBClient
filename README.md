@@ -1,5 +1,5 @@
 # OMDBClient
-List of movies and series from with their releasing date.
+List of movies and series with their releasing date.
 
 Minimum iOS version is 11.0, 
 Xcode 10.1 vesion used for development, and
