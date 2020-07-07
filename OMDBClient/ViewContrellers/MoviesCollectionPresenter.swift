@@ -30,7 +30,7 @@ class MoviesCollectionPresenter: NSObject {
         vc.title = "Movies"
         if #available(iOS 11.0, *) {
             vc.navigationController?.navigationBar.prefersLargeTitles = true
-            vc.navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+            vc.navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.red]
         } else {
             // Fallback on earlier versions
         }

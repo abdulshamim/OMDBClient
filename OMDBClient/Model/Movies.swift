@@ -13,7 +13,7 @@ class MoviesManager {
     var selectedMovie: Movie?
 }
 
-class Movies: Codable {
+class Movies {
     var totalResults = 0
     var Response: String?
     var movies = [Movie]()
@@ -38,7 +38,7 @@ class Movies: Codable {
     }
 }
 
-class Movie: Codable {
+class Movie {
     var Title: String?
     var Year: String?
     var imdbID: String?
