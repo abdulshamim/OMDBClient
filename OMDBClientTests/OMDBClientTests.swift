@@ -25,6 +25,12 @@ class OMDBClientTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testConversionForTwo() {
+      let result = 2 + 2
+      XCTAssertEqual(result, 4, "Conversion for 2 is incorrect")
+    }
+
+    
     func testPresenter() {
         let presenter = moviesCollectionController.presenter
         XCTAssert(presenter == nil, "Presenter should not be nil.")
