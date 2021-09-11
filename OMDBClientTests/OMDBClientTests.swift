@@ -26,8 +26,8 @@ class OMDBClientTests: XCTestCase {
     }
     
     func testConversionForTwo() {
-      let result = 2 + 5
-      XCTAssertEqual(result, 4, "Conversion for 2 is incorrect")
+      let result = 2 + 8
+      XCTAssertEqual(result, 4, "Addition should be 10")
     }
 
     

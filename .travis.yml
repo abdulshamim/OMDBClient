@@ -1,6 +1,4 @@
 osx_image: xcode12.4
 language: swift
-os: osx
-xcode_project: OMDBClient.xcodeproj
-xcode_scheme: OMDBClient
-xcode_destination: platform=iOS Simulator,OS=14.4,name=iPhone 12
+script:
+- fastlane scan
