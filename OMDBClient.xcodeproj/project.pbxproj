@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E458A6926ED68CF0076E0C3 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4E458A6826ED68CF0076E0C3 /* .travis.yml */; };
 		4EEF0F3B220C8D2100942C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F3A220C8D2100942C03 /* AppDelegate.swift */; };
 		4EEF0F3D220C8D2100942C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF0F3C220C8D2100942C03 /* ViewController.swift */; };
 		4EEF0F40220C8D2100942C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF0F3E220C8D2100942C03 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		1B6BBA72FC0B7B100B9E14BF /* Pods-OMDBClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDBClient.release.xcconfig"; path = "Target Support Files/Pods-OMDBClient/Pods-OMDBClient.release.xcconfig"; sourceTree = "<group>"; };
 		2A79B0FA41B666517DF3301F /* Pods_OMDBClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDBClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E458A6826ED68CF0076E0C3 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 		4EEF0F37220C8D2100942C03 /* OMDBClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMDBClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEF0F3A220C8D2100942C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EEF0F3C220C8D2100942C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		4EEF0F2E220C8D2100942C03 = {
 			isa = PBXGroup;
 			children = (
+				4E458A6826ED68CF0076E0C3 /* .travis.yml */,
 				4EEF0F39220C8D2100942C03 /* OMDBClient */,
 				4EEF0F4E220C8D2500942C03 /* OMDBClientTests */,
 				4EEF0F59220C8D2500942C03 /* OMDBClientUITests */,
@@ -328,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E458A6926ED68CF0076E0C3 /* .travis.yml in Resources */,
 				4EEF0F80220D553F00942C03 /* MoviesCollectionCell.xib in Resources */,
 				4EEF0F45220C8D2500942C03 /* LaunchScreen.storyboard in Resources */,
 				4EEF0F42220C8D2500942C03 /* Assets.xcassets in Resources */,
